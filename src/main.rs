@@ -6,6 +6,11 @@ fn main() {
     println!("{:.2}{}", convert(num_temp, char_temp), char_temp);
 }
 
+// enum Temperature {
+//     Farenheith,
+//     Celsius,
+// }
+
 fn user_input() -> String {
     let mut input = String::new();
     std::io::stdin()
